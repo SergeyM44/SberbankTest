@@ -21,7 +21,6 @@ class TestCurrency:
         # Текст для проверки обменной и получаемой валюты
         check1 = exchange.find('Check1').text
         check2 = exchange.find('Check2').text
-        action_chains = ActionChains(driver)
 
         with pytest.allure.step(check1 + ', ' + check2):
 
@@ -41,9 +40,9 @@ class TestCurrency:
 
             with pytest.allure.step('Закрыть уведомление о cookie, мешающее клику по нижней валюте'):
                 try:
-                    action_chains.click(driver.find_element_by_xpath(
+                    ActionChains(driver).click(driver.find_element_by_xpath(
                         '/html/body/div[1]/div[2]/div/div/table/tbody/tr/td/div/div/div/div/div/div[3]/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[3]/a' ) ) \
-                        .perform ()
+                        .perform()
                 except:
                     print('no_cookies')
 
@@ -76,10 +75,10 @@ class TestCurrency:
                                .get_attribute("textContent") == check2 + ' / RUB'
 
             with pytest.allure.step('Двойной клик в поле ввода'):
-                action_chains.double_click(driver.find_element_by_xpath('//*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[2]/div/form/input')).perform()
+                driver.find_element_by_xpath('//*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[2]/div/form/input').click()
 
             with pytest.allure.step('Ввод числа 100, Enter'):
-                action_chains.send_keys('100', Keys.ENTER).perform()
+                ActionChains(driver).send_keys('100', Keys.ENTER).perform()
 
             with pytest.allure.step('Проверка валюты в "Чеке"'):
 
@@ -87,5 +86,5 @@ class TestCurrency:
                 assert (check1 in wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div[2]/div/span[2]') ) )\
                         .text)
                 # Полученная валюта
-                assert (check2 in driver.find_element_by_xpath('//*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div[2]/div/span[3]')
+                assert (check2 in wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div[2]/div/span[3]') ) )\
                         .text)

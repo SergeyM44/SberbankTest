@@ -43,7 +43,7 @@ class TestFormula:
 
             with pytest.allure.step('Закрыть уведомление о cookie, мешающее клику по нижней валюте'):
                 try:
-                    ActionChains ( driver ).click(driver.find_element_by_xpath(
+                    ActionChains(driver).click(driver.find_element_by_xpath(
                         '/html/body/div[1]/div[2]/div/div/table/tbody/tr/td/div/div/div/div/div/div[3]/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[3]/a' ) ) \
                         .perform()
                 except:
