@@ -1,0 +1,71 @@
+Metadata-Version: 2.0
+Name: pytest-firefox
+Version: 0.1.1
+Summary: pytest plugin to manipulate firefox
+Home-page: https://github.com/jrbenny35/pytest-firefox
+Author: Benjamin Forehand Jr
+Author-email: bforehand@mozilla.com
+License: Mozilla Public License 2.0 (MPL 2.0)
+Keywords: py.test pytest foxpuppet firefox mozilla automation selenium
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: FoxPuppet (>=1.0.0)
+Requires-Dist: pytest (>=3.0.2)
+Requires-Dist: selenium (>=3.4.0)
+
+pytest-firefox
+===============
+
+pytest-firefox is a plugin for `pytest <http://pytest.org>`_ that provides
+support for running `FoxPuppet <http://https://github.com/mozilla/FoxPuppet/>`_
+to control `Firefox Web Browser <https://www.mozilla.org/en-US/firefox/>`_ within
+a test.
+
+Requirements
+------------
+
+You will need the following prerequisites in order to use pytest-firefox:
+
+- Python 2.7, 3.6
+- pytest 3.0 or newer
+
+Installation
+------------
+
+To install pytest-firefox:
+
+.. code-block:: bash
+
+  $ pip install pytest-firefox
+
+Usage
+-----
+
+To use pytest-firefox with your tests simply specify ``firefox`` as a fixture
+to your test.
+
+.. code-block:: python
+
+  def test_something(firefox):
+      firefox.open_window()
+
+This will open a new window.
+
+``pytest-firefox`` also creates a default Selenium WebDriver object named
+``selenium``.
+
+

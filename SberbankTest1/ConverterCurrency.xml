@@ -1,0 +1,91 @@
+<TestConverterCurrency>
+    <Currency id="rub_to_eur">
+        #Рубль
+        <FirstChoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div/div/span[1]
+        </FirstChoice>
+        #Евро
+        <SecondСhoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[4]/div[2]/div/div/span[9]
+        </SecondСhoice>
+        #Проверка валюты на обмен
+        <Check1>RUB</Check1>
+        #Проверка получаемой валюты
+        <Check2>EUR</Check2>
+    </Currency>
+
+    <Currency id="rub_to_usd">
+        #Рубль
+        <FirstChoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div/div/span[1]
+        </FirstChoice>
+        #Доллар
+        <SecondСhoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[4]/div[2]/div/div/span[16]
+        </SecondСhoice>
+        #Проверка валюты на обмен
+        <Check1>RUB</Check1>
+        #Проверка получаемой валюты
+        <Check2>USD</Check2>
+    </Currency>
+
+    <Currency id="usd_to_rub">
+        #Доллар
+        <FirstChoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div/div/span[16]
+        </FirstChoice>
+        #Рубль
+        <SecondСhoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[4]/div[2]/div/div/span[1]
+        </SecondСhoice>
+        #Проверка валюты на обмен
+        <Check1>USD</Check1>
+        #Проверка получаемой валюты
+        <Check2>RUB</Check2>
+    </Currency>
+
+    <Currency id="usd_to_eur">
+        #Доллар
+        <FirstChoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div/div/span[16]
+        </FirstChoice>
+        #Евро
+        <SecondСhoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[4]/div[2]/div/div/span[9]
+        </SecondСhoice>
+        #Проверка валюты на обмен
+        <Check1>USD</Check1>
+        #Проверка получаемой валюты
+        <Check2>EUR</Check2>
+    </Currency>
+
+    <Currency id="eur_to_rub">
+        #Евро
+        <FirstChoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div/div/span[9]
+        </FirstChoice>
+        #Рубль
+        <SecondСhoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[4]/div[2]/div/div/span[1]
+        </SecondСhoice>
+        #Проверка валюты на обмен
+        <Check1>EUR</Check1>
+        #Проверка получаемой валюты
+        <Check2>RUB</Check2>
+    </Currency>
+
+    <Currency id="eur_to_usd">
+        #Евро
+        <FirstChoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div/div/span[9]
+        </FirstChoice>
+        #Доллар
+        <SecondСhoice>
+            //*[@id="main"]/div/div/table/tbody/tr/td/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/aside/div/div/div/div[2]/div/div[1]/div[4]/div[2]/div/div/span[16]
+        </SecondСhoice>
+        #Проверка валюты на обмен
+        <Check1>EUR</Check1>
+        #Проверка получаемой валюты
+        <Check2>USD</Check2>
+    </Currency>
+</TestConverterCurrency>
