@@ -1,0 +1,260 @@
+{
+  "uid" : "a97d110319f36cc5",
+  "name" : "Тест формулы конвертации валют",
+  "fullName" : "test_Converter_Formula.TestFormula#test_converter_formula[Firefox-exchange4]",
+  "historyId" : "da96363184548b7d22f6ed1ba5eefdb1",
+  "time" : {
+    "start" : 1532952012000,
+    "stop" : 1532952017170,
+    "duration" : 5170
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "number_to_input",
+    "time" : {
+      "start" : 1532952010746,
+      "stop" : 1532952010746,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "wait",
+    "time" : {
+      "start" : 1532952010745,
+      "stop" : 1532952010746,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1532951932181,
+      "stop" : 1532951946981,
+      "duration" : 14800
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "converter_page",
+    "time" : {
+      "start" : 1532952010746,
+      "stop" : 1532952011999,
+      "duration" : 1253
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "EUR в RUB",
+      "time" : {
+        "start" : 1532952012001,
+        "stop" : 1532952017169,
+        "duration" : 5168
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик по верхней валюте",
+        "time" : {
+          "start" : 1532952012001,
+          "stop" : 1532952013649,
+          "duration" : 1648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Выбор валюты на обмен",
+        "time" : {
+          "start" : 1532952013649,
+          "stop" : 1532952014193,
+          "duration" : 544
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Клик по нижней валюте",
+        "time" : {
+          "start" : 1532952014193,
+          "stop" : 1532952015087,
+          "duration" : 894
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Выбор получаемой валюты",
+        "time" : {
+          "start" : 1532952015088,
+          "stop" : 1532952015824,
+          "duration" : 736
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверка расчёта в \"чеке\"",
+        "time" : {
+          "start" : 1532952015824,
+          "stop" : 1532952017169,
+          "duration" : 1345
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Двойной клик в поле ввода",
+          "time" : {
+            "start" : 1532952015824,
+            "stop" : 1532952016217,
+            "duration" : 393
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ввод: 1, Enter",
+          "time" : {
+            "start" : 1532952016217,
+            "stop" : 1532952016495,
+            "duration" : 278
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::quit",
+    "time" : {
+      "start" : 1532952148499,
+      "stop" : 1532952160152,
+      "duration" : 11653
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тест формулы конвертации валют"
+  }, {
+    "name" : "host",
+    "value" : "User-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Converter_Formula"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Firefox'"
+  }, {
+    "name" : "exchange",
+    "value" : "<Element 'Currency' at 0x0000000003D3D638>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a97d110319f36cc5.json",
+  "parameterValues" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D3D638>" ]
+}

@@ -1,0 +1,88 @@
+<TestConverterCurrency>
+    <Currency id="rub_to_eur">
+        #Рубль
+        <FirstChoice>div:nth-child(3) div.rates-aside__filter-block-line-right span:nth-child(1)</FirstChoice>
+        #Евро
+        <SecondChoice>div:nth-child(4) div.rates-aside__filter-block-line-right span:nth-child(9)</SecondChoice>
+        #Проверка валюты на обмен
+        <Check1>RUB</Check1>
+        #Проверка получаемой валюты
+        <Check2>EUR</Check2>
+    </Currency>
+
+    <Currency id="rub_to_usd">
+        #Рубль
+        <FirstChoice>
+            div:nth-child(3) div.rates-aside__filter-block-line-right span:nth-child(1)
+        </FirstChoice>
+        #Доллар
+        <SecondChoice>
+            div:nth-child(4) div.rates-aside__filter-block-line-right span:nth-child(16)
+        </SecondChoice>
+        #Проверка валюты на обмен
+        <Check1>RUB</Check1>
+        #Проверка получаемой валюты
+        <Check2>USD</Check2>
+    </Currency>
+
+    <Currency id="usd_to_rub">
+        #Доллар
+        <FirstChoice>
+            div:nth-child(3) div.rates-aside__filter-block-line-right span:nth-child(16)
+        </FirstChoice>
+        #Рубль
+        <SecondChoice>
+            div:nth-child(4) div.rates-aside__filter-block-line-right span:nth-child(1)
+        </SecondChoice>
+        #Проверка валюты на обмен
+        <Check1>USD</Check1>
+        #Проверка получаемой валюты
+        <Check2>RUB</Check2>
+    </Currency>
+
+    <Currency id="usd_to_eur">
+        #Доллар
+        <FirstChoice>
+            div:nth-child(3) div.rates-aside__filter-block-line-right span:nth-child(16)
+        </FirstChoice>
+        #Евро
+        <SecondChoice>
+            div:nth-child(4) div.rates-aside__filter-block-line-right span:nth-child(9
+            )
+        </SecondChoice>
+        #Проверка валюты на обмен
+        <Check1>USD</Check1>
+        #Проверка получаемой валюты
+        <Check2>EUR</Check2>
+    </Currency>
+
+    <Currency id="eur_to_rub">
+        #Евро
+        <FirstChoice>
+            div:nth-child(3) div.rates-aside__filter-block-line-right span:nth-child(9)
+        </FirstChoice>
+        #Рубль
+        <SecondChoice>
+            div:nth-child(4) div.rates-aside__filter-block-line-right span:nth-child(1)
+        </SecondChoice>
+        #Проверка валюты на обмен
+        <Check1>EUR</Check1>
+        #Проверка получаемой валюты
+        <Check2>RUB</Check2>
+    </Currency>
+
+    <Currency id="eur_to_usd">
+        #Евро
+        <FirstChoice>
+            div:nth-child(3) div.rates-aside__filter-block-line-right span:nth-child(9)
+        </FirstChoice>
+        #Доллар
+        <SecondChoice>
+            div:nth-child(4) div.rates-aside__filter-block-line-right span:nth-child(16)
+        </SecondChoice>
+        #Проверка валюты на обмен
+        <Check1>EUR</Check1>
+        #Проверка получаемой валюты
+        <Check2>USD</Check2>
+    </Currency>
+</TestConverterCurrency>

@@ -1,0 +1,641 @@
+[ {
+  "uid" : "7afe21ba5534758f",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951989086,
+    "stop" : 1532951993817,
+    "duration" : 4731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a36a127649e2224",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951841150,
+    "stop" : 1532951844090,
+    "duration" : 2940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "339775e1d81a2aba",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951895372,
+    "stop" : 1532951898393,
+    "duration" : 3021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18019dc57c7ca0d0",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951810916,
+    "stop" : 1532951813657,
+    "duration" : 2741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13091180113bd656",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952134299,
+    "stop" : 1532952137639,
+    "duration" : 3340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abd5b4f6043f4550",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952039959,
+    "stop" : 1532952043463,
+    "duration" : 3504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f74e5a92ba4c4dc",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951814526,
+    "stop" : 1532951817711,
+    "duration" : 3185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77b48524a00fd15f",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951876668,
+    "stop" : 1532951879643,
+    "duration" : 2975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1033b9fe746ad99",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951858584,
+    "stop" : 1532951861156,
+    "duration" : 2572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5afcb2d0f9f9635",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952089703,
+    "stop" : 1532952093629,
+    "duration" : 3926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6e4d18cd0585a93",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952030564,
+    "stop" : 1532952034185,
+    "duration" : 3621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b1a733dadaf4b1b",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951832838,
+    "stop" : 1532951836332,
+    "duration" : 3494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ced1d9341691ef",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951976643,
+    "stop" : 1532951981677,
+    "duration" : 5034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "562b03c825a8d616",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951902919,
+    "stop" : 1532951907542,
+    "duration" : 4623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8d64c37aa6c2351",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952035099,
+    "stop" : 1532952038777,
+    "duration" : 3678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6007a48d577b7c4b",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952057235,
+    "stop" : 1532952060901,
+    "duration" : 3666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b85574cb4c64238",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532952018887,
+    "stop" : 1532952025037,
+    "duration" : 6150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1332ac73b23de6af",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951828464,
+    "stop" : 1532951831937,
+    "duration" : 3473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f426f125c761849b",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952120928,
+    "stop" : 1532952123644,
+    "duration" : 2716
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c6500ccaeaf9824",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951926546,
+    "stop" : 1532951929935,
+    "duration" : 3389
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ee78ef5a43d1c03",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951899148,
+    "stop" : 1532951902154,
+    "duration" : 3006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adb2c4a9b2837e72",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951908348,
+    "stop" : 1532951910270,
+    "duration" : 1922
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffb403f329aaea9c",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951920092,
+    "stop" : 1532951922589,
+    "duration" : 2497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16ae6112d1466177",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952071752,
+    "stop" : 1532952079375,
+    "duration" : 7623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34ed11055b6bccd9",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951880424,
+    "stop" : 1532951883425,
+    "duration" : 3001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f9ae4bb770cef0e",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951849238,
+    "stop" : 1532951853115,
+    "duration" : 3877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f1985601d72e506",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951837371,
+    "stop" : 1532951840286,
+    "duration" : 2915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "873bc5b9292b624",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952138951,
+    "stop" : 1532952142255,
+    "duration" : 3304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f176310bc3bb779",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952044368,
+    "stop" : 1532952048647,
+    "duration" : 4279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52b2cb187b74ad6b",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951862051,
+    "stop" : 1532951864821,
+    "duration" : 2770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "332ca1cbe6f5c1fb",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532952006009,
+    "stop" : 1532952010736,
+    "duration" : 4727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ca0834609c550a",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951869321,
+    "stop" : 1532951872260,
+    "duration" : 2939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88d46858e9ba018b",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951884159,
+    "stop" : 1532951887027,
+    "duration" : 2868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "915ed3d9f854b1fd",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951916810,
+    "stop" : 1532951919411,
+    "duration" : 2601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c34f7bdc03963fd2",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951983118,
+    "stop" : 1532951987913,
+    "duration" : 4795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a97d110319f36cc5",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532952012000,
+    "stop" : 1532952017170,
+    "duration" : 5170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bf0ed6bce84a679",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532952000540,
+    "stop" : 1532952004688,
+    "duration" : 4148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1143c793e582114b",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951970281,
+    "stop" : 1532951975297,
+    "duration" : 5016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b58e5bd74306f38e",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951994962,
+    "stop" : 1532951999335,
+    "duration" : 4373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4335e042f361aea",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952116950,
+    "stop" : 1532952120035,
+    "duration" : 3085
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "939a0998433ba000",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952061812,
+    "stop" : 1532952065623,
+    "duration" : 3811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1fdec5198c56864",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951844817,
+    "stop" : 1532951848071,
+    "duration" : 3254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b1b38119ba7fe5b",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951873019,
+    "stop" : 1532951875896,
+    "duration" : 2877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eeb9be336a5e558",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952110632,
+    "stop" : 1532952115972,
+    "duration" : 5340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "862a8a28b43bba6",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952124901,
+    "stop" : 1532952128563,
+    "duration" : 3662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98355324db55769",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951865715,
+    "stop" : 1532951868552,
+    "duration" : 2837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fad991cd79855403",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951950916,
+    "stop" : 1532951957442,
+    "duration" : 6526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f36766e8a9144f9b",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952094996,
+    "stop" : 1532952103634,
+    "duration" : 8638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b48644b9ecff77c2",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952026335,
+    "stop" : 1532952029643,
+    "duration" : 3308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8c737e93d1a3767",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952144271,
+    "stop" : 1532952148493,
+    "duration" : 4222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39d6c3a3255e36a5",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951958798,
+    "stop" : 1532951962954,
+    "duration" : 4156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc5b4e9673e01ce2",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951818518,
+    "stop" : 1532951822571,
+    "duration" : 4053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57941268414ff7b4",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951891793,
+    "stop" : 1532951894629,
+    "duration" : 2836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fa07f4d5826605b",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951801293,
+    "stop" : 1532951806406,
+    "duration" : 5113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a47733bacdd320f0",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532951887885,
+    "stop" : 1532951890820,
+    "duration" : 2935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b24fd84bc0ce9d12",
+  "name" : "Тест формулы конвертации валют",
+  "time" : {
+    "start" : 1532951853980,
+    "stop" : 1532951857669,
+    "duration" : 3689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a27deb7f9aafa1f",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951823539,
+    "stop" : 1532951827601,
+    "duration" : 4062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9d67c2fe70aa264",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532952129861,
+    "stop" : 1532952133084,
+    "duration" : 3223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f95a4dd7d6da68dd",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951913639,
+    "stop" : 1532951916152,
+    "duration" : 2513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dee44a9507b868a6",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951923490,
+    "stop" : 1532951925783,
+    "duration" : 2293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205ce216571ff738",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952066508,
+    "stop" : 1532952070469,
+    "duration" : 3961
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c14a44c655aa70a3",
+  "name" : "Некорректные данные",
+  "time" : {
+    "start" : 1532951911094,
+    "stop" : 1532951912926,
+    "duration" : 1832
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b650362cad828223",
+  "name" : "Тест выбора валюты",
+  "time" : {
+    "start" : 1532951964462,
+    "stop" : 1532951968833,
+    "duration" : 4371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ec0ebbd06a0616",
+  "name" : "Корректные данные",
+  "time" : {
+    "start" : 1532952052474,
+    "stop" : 1532952056011,
+    "duration" : 3537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

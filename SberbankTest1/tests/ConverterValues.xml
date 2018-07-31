@@ -1,0 +1,120 @@
+<TestConverterInsert>
+
+     <correct_data>
+        <test_name>Ввод числа 200</test_name>
+        <input_data>200</input_data>
+        <data_check>200,00 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200,50</test_name>
+        <input_data>200,50</input_data>
+        <data_check>200,50 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200,500 (ноль игнорируется)</test_name>
+        <input_data>200,500</input_data>
+        <data_check>200,50 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200,5</test_name>
+        <input_data>200,50</input_data>
+        <data_check>200,50 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200.5</test_name>
+        <input_data>200.5</input_data>
+        <data_check>200,50 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200.50 (точка тождественна запятой)</test_name>
+        <input_data>200.50</input_data>
+        <data_check>200,50 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200.500</test_name>
+        <input_data>200.500</input_data>
+        <data_check>200,50 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200+200</test_name>
+        <input_data>200+200</input_data>
+        <data_check>200 200,00 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200-200</test_name>
+        <input_data>200-200</input_data>
+        <data_check>200 200,00 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200*200</test_name>
+        <input_data>200*200</input_data>
+        <data_check>200 200,00 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200/200</test_name>
+        <input_data>200/200</input_data>
+        <data_check>200 200,00 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 200 200</test_name>
+        <input_data>200 200</input_data>
+        <data_check>200 200,00 RUB =</data_check>
+    </correct_data>
+
+    <correct_data>
+        <test_name>Ввод числа 100 000 000 000 000 000 000 000, символы после двенадцатого игнорируются.</test_name>
+        <input_data>100 000 000 000 000 000 000 000</input_data>
+        <data_check>100 000 000 000,00 RUB =</data_check>
+    </correct_data>
+
+
+        _____________________________________________________________________________
+
+
+    <incorrect_data>
+        <test_name>Ввод числа: 0,5</test_name>
+        <input_data>0,5</input_data>
+    </incorrect_data>
+
+    <incorrect_data>
+        <test_name>Ввод числа: 0</test_name>
+        <input_data>0</input_data>
+    </incorrect_data>
+
+    <incorrect_data>
+        <test_name>Ввод строки: QWERTYUIO</test_name>
+        <input_data>QWERTYUIO</input_data>
+    </incorrect_data>
+
+    <incorrect_data>
+        <test_name>Ввод строки: qwertyuio</test_name>
+        <input_data>qwertyuio</input_data>
+    </incorrect_data>
+
+    <incorrect_data>
+        <test_name>Ввод строки: ЙЦУКЕНГШЩ</test_name>
+        <input_data>ЙЦУКЕНГШЩ</input_data>
+    </incorrect_data>
+
+    <incorrect_data>
+        <test_name>Ввод строки: йцукенгшщ</test_name>
+        <input_data>йцукенгшщ</input_data>
+    </incorrect_data>
+
+    <incorrect_data>
+        <test_name>Ввод строки: (){}[]%$#@!?:;\/~`'"</test_name>
+        <input_data>(){}[]%$#@!?:;\/~`'"</input_data>
+    </incorrect_data>
+
+</TestConverterInsert>

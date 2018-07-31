@@ -1,0 +1,785 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Тест выбора валюты",
+    "children" : [ {
+      "name" : "Тест выбора валюты",
+      "uid" : "2fa07f4d5826605b",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951801293,
+        "stop" : 1532951806406,
+        "duration" : 5113
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003CFE3B8>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "18019dc57c7ca0d0",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951810916,
+        "stop" : 1532951813657,
+        "duration" : 2741
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D533B8>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "6f74e5a92ba4c4dc",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951814526,
+        "stop" : 1532951817711,
+        "duration" : 3185
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D53B38>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "fc5b4e9673e01ce2",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951818518,
+        "stop" : 1532951822571,
+        "duration" : 4053
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D53CC8>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "1a27deb7f9aafa1f",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951823539,
+        "stop" : 1532951827601,
+        "duration" : 4062
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D53E58>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "1332ac73b23de6af",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951828464,
+        "stop" : 1532951831937,
+        "duration" : 3473
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D58048>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "fad991cd79855403",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951950916,
+        "stop" : 1532951957442,
+        "duration" : 6526
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003CFE3B8>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "39d6c3a3255e36a5",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951958798,
+        "stop" : 1532951962954,
+        "duration" : 4156
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D533B8>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "b650362cad828223",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951964462,
+        "stop" : 1532951968833,
+        "duration" : 4371
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D53B38>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "1143c793e582114b",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951970281,
+        "stop" : 1532951975297,
+        "duration" : 5016
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D53CC8>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "66ced1d9341691ef",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951976643,
+        "stop" : 1532951981677,
+        "duration" : 5034
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D53E58>" ]
+    }, {
+      "name" : "Тест выбора валюты",
+      "uid" : "c34f7bdc03963fd2",
+      "parentUid" : "6d483e434d95cbee090923ff838f90ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951983118,
+        "stop" : 1532951987913,
+        "duration" : 4795
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D58048>" ]
+    } ],
+    "uid" : "6d483e434d95cbee090923ff838f90ec"
+  }, {
+    "name" : "Тест формулы конвертации валют",
+    "children" : [ {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "1b1a733dadaf4b1b",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951832838,
+        "stop" : 1532951836332,
+        "duration" : 3494
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D58F48>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "3f1985601d72e506",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951837371,
+        "stop" : 1532951840286,
+        "duration" : 2915
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D3D188>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "3a36a127649e2224",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951841150,
+        "stop" : 1532951844090,
+        "duration" : 2940
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D3D318>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "e1fdec5198c56864",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951844817,
+        "stop" : 1532951848071,
+        "duration" : 3254
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D3D4A8>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "5f9ae4bb770cef0e",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951849238,
+        "stop" : 1532951853115,
+        "duration" : 3877
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D3D638>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "b24fd84bc0ce9d12",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951853980,
+        "stop" : 1532951857669,
+        "duration" : 3689
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'Currency' at 0x0000000003D3D7C8>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "7afe21ba5534758f",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951989086,
+        "stop" : 1532951993817,
+        "duration" : 4731
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D58F48>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "b58e5bd74306f38e",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951994962,
+        "stop" : 1532951999335,
+        "duration" : 4373
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D3D188>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "9bf0ed6bce84a679",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952000540,
+        "stop" : 1532952004688,
+        "duration" : 4148
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D3D318>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "332ca1cbe6f5c1fb",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952006009,
+        "stop" : 1532952010736,
+        "duration" : 4727
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D3D4A8>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "a97d110319f36cc5",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952012000,
+        "stop" : 1532952017170,
+        "duration" : 5170
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D3D638>" ]
+    }, {
+      "name" : "Тест формулы конвертации валют",
+      "uid" : "5b85574cb4c64238",
+      "parentUid" : "0a45152af908939d84b39262f7ef8a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952018887,
+        "stop" : 1532952025037,
+        "duration" : 6150
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'Currency' at 0x0000000003D3D7C8>" ]
+    } ],
+    "uid" : "0a45152af908939d84b39262f7ef8a39"
+  }, {
+    "name" : "Тест строки ввода калькулятора валют",
+    "children" : [ {
+      "name" : "Корректные данные",
+      "uid" : "d1033b9fe746ad99",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951858584,
+        "stop" : 1532951861156,
+        "duration" : 2572
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D763B8>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "52b2cb187b74ad6b",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951862051,
+        "stop" : 1532951864821,
+        "duration" : 2770
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76548>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "c98355324db55769",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951865715,
+        "stop" : 1532951868552,
+        "duration" : 2837
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76688>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "e7ca0834609c550a",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951869321,
+        "stop" : 1532951872260,
+        "duration" : 2939
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D767C8>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "8b1b38119ba7fe5b",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951873019,
+        "stop" : 1532951875896,
+        "duration" : 2877
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76908>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "77b48524a00fd15f",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951876668,
+        "stop" : 1532951879643,
+        "duration" : 2975
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76A48>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "34ed11055b6bccd9",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951880424,
+        "stop" : 1532951883425,
+        "duration" : 3001
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76B88>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "88d46858e9ba018b",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951884159,
+        "stop" : 1532951887027,
+        "duration" : 2868
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76CC8>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "a47733bacdd320f0",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951887885,
+        "stop" : 1532951890820,
+        "duration" : 2935
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76E08>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "57941268414ff7b4",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951891793,
+        "stop" : 1532951894629,
+        "duration" : 2836
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76F48>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "339775e1d81a2aba",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951895372,
+        "stop" : 1532951898393,
+        "duration" : 3021
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D790E8>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "9ee78ef5a43d1c03",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951899148,
+        "stop" : 1532951902154,
+        "duration" : 3006
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D79228>", "'Chrome'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "562b03c825a8d616",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951902919,
+        "stop" : 1532951907542,
+        "duration" : 4623
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D79368>", "'Chrome'" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "adb2c4a9b2837e72",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1532951908348,
+        "stop" : 1532951910270,
+        "duration" : 1922
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79598>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "c14a44c655aa70a3",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1532951911094,
+        "stop" : 1532951912926,
+        "duration" : 1832
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79688>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "f95a4dd7d6da68dd",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951913639,
+        "stop" : 1532951916152,
+        "duration" : 2513
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79778>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "915ed3d9f854b1fd",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951916810,
+        "stop" : 1532951919411,
+        "duration" : 2601
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79868>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "ffb403f329aaea9c",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951920092,
+        "stop" : 1532951922589,
+        "duration" : 2497
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79958>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "dee44a9507b868a6",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951923490,
+        "stop" : 1532951925783,
+        "duration" : 2293
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79A48>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "8c6500ccaeaf9824",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532951926546,
+        "stop" : 1532951929935,
+        "duration" : 3389
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79B38>" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "b48644b9ecff77c2",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952026335,
+        "stop" : 1532952029643,
+        "duration" : 3308
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D763B8>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "d6e4d18cd0585a93",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952030564,
+        "stop" : 1532952034185,
+        "duration" : 3621
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76548>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "e8d64c37aa6c2351",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952035099,
+        "stop" : 1532952038777,
+        "duration" : 3678
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76688>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "abd5b4f6043f4550",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952039959,
+        "stop" : 1532952043463,
+        "duration" : 3504
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D767C8>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "3f176310bc3bb779",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952044368,
+        "stop" : 1532952048647,
+        "duration" : 4279
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76908>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "15ec0ebbd06a0616",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952052474,
+        "stop" : 1532952056011,
+        "duration" : 3537
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76A48>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "6007a48d577b7c4b",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952057235,
+        "stop" : 1532952060901,
+        "duration" : 3666
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76B88>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "939a0998433ba000",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952061812,
+        "stop" : 1532952065623,
+        "duration" : 3811
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76CC8>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "205ce216571ff738",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952066508,
+        "stop" : 1532952070469,
+        "duration" : 3961
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76E08>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "16ae6112d1466177",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952071752,
+        "stop" : 1532952079375,
+        "duration" : 7623
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D76F48>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "c5afcb2d0f9f9635",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952089703,
+        "stop" : 1532952093629,
+        "duration" : 3926
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D790E8>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "f36766e8a9144f9b",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952094996,
+        "stop" : 1532952103634,
+        "duration" : 8638
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D79228>", "'Firefox'" ]
+    }, {
+      "name" : "Корректные данные",
+      "uid" : "9eeb9be336a5e558",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952110632,
+        "stop" : 1532952115972,
+        "duration" : 5340
+      },
+      "flaky" : false,
+      "parameters" : [ "<Element 'correct_data' at 0x0000000003D79368>", "'Firefox'" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "f4335e042f361aea",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1532952116950,
+        "stop" : 1532952120035,
+        "duration" : 3085
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79598>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "f426f125c761849b",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1532952120928,
+        "stop" : 1532952123644,
+        "duration" : 2716
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79688>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "862a8a28b43bba6",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952124901,
+        "stop" : 1532952128563,
+        "duration" : 3662
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79778>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "e9d67c2fe70aa264",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952129861,
+        "stop" : 1532952133084,
+        "duration" : 3223
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79868>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "13091180113bd656",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952134299,
+        "stop" : 1532952137639,
+        "duration" : 3340
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79958>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "873bc5b9292b624",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952138951,
+        "stop" : 1532952142255,
+        "duration" : 3304
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79A48>" ]
+    }, {
+      "name" : "Некорректные данные",
+      "uid" : "e8c737e93d1a3767",
+      "parentUid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532952144271,
+        "stop" : 1532952148493,
+        "duration" : 4222
+      },
+      "flaky" : false,
+      "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79B38>" ]
+    } ],
+    "uid" : "6512257be57a9e40c2e3e8c8ddb8f9c0"
+  } ]
+}

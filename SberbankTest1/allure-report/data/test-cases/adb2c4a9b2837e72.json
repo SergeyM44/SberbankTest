@@ -1,0 +1,212 @@
+{
+  "uid" : "adb2c4a9b2837e72",
+  "name" : "Некорректные данные",
+  "fullName" : "test_Converter_Insert_Field.TestField#test_converter_string[Chrome-incorrect_data0]",
+  "historyId" : "94488bb01eb4d717733d94429caa7083",
+  "time" : {
+    "start" : 1532951908348,
+    "stop" : 1532951910270,
+    "duration" : 1922
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '0,5' == ''\n  - 0,5",
+  "statusTrace" : "self = <test_Converter_Insert_Field.TestField object at 0x0000000003E28B70>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9069cc741c9dbab2eea49734dc5f1b52\")>\nincorrect_data = <Element 'incorrect_data' at 0x0000000003D79598>\nnumber_to_input = <function number_to_input.<locals>._input_action at 0x0000000003E13510>\nconverter_page = None\nwait = <selenium.webdriver.support.wait.WebDriverWait (session=\"9069cc741c9dbab2eea49734dc5f1b52\")>\n\n    @allure.title(\"Некорректные данные\")\n    @pytest.mark.parametrize('incorrect_data', (tree.findall('incorrect_data')))\n    # Описание фикстур в Conftest\n    def test_converter_string(self, driver, incorrect_data, number_to_input, converter_page, wait):\n    \n        # Данные для ввода и название теста\n        input_data = incorrect_data.find('input_data').text\n        test_name = incorrect_data.find('test_name').text\n    \n        # Имя теста\n        with pytest.allure.step(test_name):\n    \n            number_to_input(input_data)\n    \n            with pytest.allure.step('Value поля ввода не изменилось'):\n>               assert wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PageObjects.converter_insert_field))).get_attribute(\"value\") == ''\nE               AssertionError: assert '0,5' == ''\nE                 - 0,5\n\ntest_Converter_Insert_Field.py:50: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "wait",
+    "time" : {
+      "start" : 1532951907551,
+      "stop" : 1532951907551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1532951783893,
+      "stop" : 1532951797290,
+      "duration" : 13397
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "converter_page",
+    "time" : {
+      "start" : 1532951907552,
+      "stop" : 1532951908347,
+      "duration" : 795
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "number_to_input",
+    "time" : {
+      "start" : 1532951907551,
+      "stop" : 1532951907551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '0,5' == ''\n  - 0,5",
+    "statusTrace" : "self = <test_Converter_Insert_Field.TestField object at 0x0000000003E28B70>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9069cc741c9dbab2eea49734dc5f1b52\")>\nincorrect_data = <Element 'incorrect_data' at 0x0000000003D79598>\nnumber_to_input = <function number_to_input.<locals>._input_action at 0x0000000003E13510>\nconverter_page = None\nwait = <selenium.webdriver.support.wait.WebDriverWait (session=\"9069cc741c9dbab2eea49734dc5f1b52\")>\n\n    @allure.title(\"Некорректные данные\")\n    @pytest.mark.parametrize('incorrect_data', (tree.findall('incorrect_data')))\n    # Описание фикстур в Conftest\n    def test_converter_string(self, driver, incorrect_data, number_to_input, converter_page, wait):\n    \n        # Данные для ввода и название теста\n        input_data = incorrect_data.find('input_data').text\n        test_name = incorrect_data.find('test_name').text\n    \n        # Имя теста\n        with pytest.allure.step(test_name):\n    \n            number_to_input(input_data)\n    \n            with pytest.allure.step('Value поля ввода не изменилось'):\n>               assert wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PageObjects.converter_insert_field))).get_attribute(\"value\") == ''\nE               AssertionError: assert '0,5' == ''\nE                 - 0,5\n\ntest_Converter_Insert_Field.py:50: AssertionError",
+    "steps" : [ {
+      "name" : "Ввод числа: 0,5",
+      "time" : {
+        "start" : 1532951908348,
+        "stop" : 1532951910269,
+        "duration" : 1921
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '0,5' == ''\n  - 0,5\n",
+      "statusTrace" : "  File \"C:\\Users\\User\\PycharmProjects\\SberbankTest1\\test_Converter_Insert_Field.py\", line 50, in test_converter_string\n    assert wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PageObjects.converter_insert_field))).get_attribute(\"value\") == ''\n",
+      "steps" : [ {
+        "name" : "Двойной клик в поле ввода",
+        "time" : {
+          "start" : 1532951908348,
+          "stop" : 1532951909778,
+          "duration" : 1430
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ввод: 0,5, Enter",
+        "time" : {
+          "start" : 1532951909778,
+          "stop" : 1532951910218,
+          "duration" : 440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Value поля ввода не изменилось",
+        "time" : {
+          "start" : 1532951910218,
+          "stop" : 1532951910269,
+          "duration" : 51
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: assert '0,5' == ''\n  - 0,5\n",
+        "statusTrace" : "  File \"C:\\Users\\User\\PycharmProjects\\SberbankTest1\\test_Converter_Insert_Field.py\", line 50, in test_converter_string\n    assert wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PageObjects.converter_insert_field))).get_attribute(\"value\") == ''\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::quit",
+    "time" : {
+      "start" : 1532951930036,
+      "stop" : 1532951932180,
+      "duration" : 2144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тест строки ввода калькулятора валют"
+  }, {
+    "name" : "host",
+    "value" : "User-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Converter_Insert_Field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  }, {
+    "name" : "incorrect_data",
+    "value" : "<Element 'incorrect_data' at 0x0000000003D79598>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "adb2c4a9b2837e72.json",
+  "parameterValues" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79598>" ]
+}

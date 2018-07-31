@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "6512257be57a9e40c2e3e8c8ddb8f9c0",
+    "name" : "Тест строки ввода калькулятора валют",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 36,
+      "unknown" : 0,
+      "total" : 40
+    }
+  }, {
+    "uid" : "6d483e434d95cbee090923ff838f90ec",
+    "name" : "Тест выбора валюты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "0a45152af908939d84b39262f7ef8a39",
+    "name" : "Тест формулы конвертации валют",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
+    }
+  } ]
+}

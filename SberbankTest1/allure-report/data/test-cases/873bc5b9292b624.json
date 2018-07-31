@@ -1,0 +1,200 @@
+{
+  "uid" : "873bc5b9292b624",
+  "name" : "Некорректные данные",
+  "fullName" : "test_Converter_Insert_Field.TestField#test_converter_string[Firefox-incorrect_data5]",
+  "historyId" : "cf9b57107d8c59dfef344d4a6d86139e",
+  "time" : {
+    "start" : 1532952138951,
+    "stop" : 1532952142255,
+    "duration" : 3304
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "converter_page",
+    "time" : {
+      "start" : 1532952137646,
+      "stop" : 1532952138947,
+      "duration" : 1301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1532951932181,
+      "stop" : 1532951946981,
+      "duration" : 14800
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "number_to_input",
+    "time" : {
+      "start" : 1532952137646,
+      "stop" : 1532952137646,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "wait",
+    "time" : {
+      "start" : 1532952137646,
+      "stop" : 1532952137646,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод строки: йцукенгшщ",
+      "time" : {
+        "start" : 1532952138954,
+        "stop" : 1532952142254,
+        "duration" : 3300
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Двойной клик в поле ввода",
+        "time" : {
+          "start" : 1532952138954,
+          "stop" : 1532952141220,
+          "duration" : 2266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ввод: йцукенгшщ, Enter",
+        "time" : {
+          "start" : 1532952141220,
+          "stop" : 1532952142136,
+          "duration" : 916
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Value поля ввода не изменилось",
+        "time" : {
+          "start" : 1532952142136,
+          "stop" : 1532952142253,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::quit",
+    "time" : {
+      "start" : 1532952148499,
+      "stop" : 1532952160152,
+      "duration" : 11653
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тест строки ввода калькулятора валют"
+  }, {
+    "name" : "host",
+    "value" : "User-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Converter_Insert_Field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Firefox'"
+  }, {
+    "name" : "incorrect_data",
+    "value" : "<Element 'incorrect_data' at 0x0000000003D79A48>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "873bc5b9292b624.json",
+  "parameterValues" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79A48>" ]
+}

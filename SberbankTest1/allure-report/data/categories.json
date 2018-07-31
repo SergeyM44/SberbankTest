@@ -1,0 +1,65 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '0,5' == ''\n  - 0,5",
+      "children" : [ {
+        "name" : "Некорректные данные",
+        "uid" : "adb2c4a9b2837e72",
+        "parentUid" : "3568b968dd95537457b60ea26ca632c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532951908348,
+          "stop" : 1532951910270,
+          "duration" : 1922
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79598>" ]
+      }, {
+        "name" : "Некорректные данные",
+        "uid" : "f4335e042f361aea",
+        "parentUid" : "3568b968dd95537457b60ea26ca632c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532952116950,
+          "stop" : 1532952120035,
+          "duration" : 3085
+        },
+        "flaky" : false,
+        "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79598>" ]
+      } ],
+      "uid" : "3568b968dd95537457b60ea26ca632c3"
+    }, {
+      "name" : "AssertionError: assert '0' == ''\n  - 0",
+      "children" : [ {
+        "name" : "Некорректные данные",
+        "uid" : "c14a44c655aa70a3",
+        "parentUid" : "d90134b375ecc328b28e752e4cbd667f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532951911094,
+          "stop" : 1532951912926,
+          "duration" : 1832
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'", "<Element 'incorrect_data' at 0x0000000003D79688>" ]
+      }, {
+        "name" : "Некорректные данные",
+        "uid" : "f426f125c761849b",
+        "parentUid" : "d90134b375ecc328b28e752e4cbd667f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532952120928,
+          "stop" : 1532952123644,
+          "duration" : 2716
+        },
+        "flaky" : false,
+        "parameters" : [ "'Firefox'", "<Element 'incorrect_data' at 0x0000000003D79688>" ]
+      } ],
+      "uid" : "d90134b375ecc328b28e752e4cbd667f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
