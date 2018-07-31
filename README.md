@@ -17,6 +17,7 @@ WebDriver
 _______________________________________________________________________
 
 
+Тест кейсы https://docs.google.com/spreadsheets/d/150OI9MsFb8YRldY5hMHB3iJo2ev_pFqXDIRnzPcGocI/edit#gid=1225610413
 Тест-кейсы в отчёте Allure сгруппированы на вкладке "Функциональность".
 
 
